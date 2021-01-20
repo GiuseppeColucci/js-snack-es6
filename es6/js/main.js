@@ -42,15 +42,19 @@ function Nrandom(max, min){
     },
     
 
- ]
+ ];
+
  for(let y=0; y<sq1.length; y++){
      let teams=sq1[y];
      teams. puntiFatti=Nrandom(1, 10);
      teams.falliSubiti=Nrandom(1, 10);
      console.log(teams)
  }
+
+
 //ultima parte
 const newsq2=[];
+
 for(let t=0; t<sq1.length; t++){
     let thisSq=sq1[t];
     const{nome, falliSubiti}=thisSq;
